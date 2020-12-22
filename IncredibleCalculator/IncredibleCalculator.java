@@ -44,6 +44,9 @@ public class IncredibleCalculator {
                 break;
             case 5: // Dividir con decimales. Debes leer dos números enteros de entrada e imprimir su división
                     // con decimales.
+                    num1=leerEnteroEntrada();
+                    num2=leerEnteroEntrada();
+                    divisionConDecimales(num1, num2);
                 break;
 
         }

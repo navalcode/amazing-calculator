@@ -4,6 +4,7 @@ public class IncredibleCalculator {
 
     public static void main(String[] args) {
         int num1,num2,resultadoInt;
+   
         
 
         System.out.println("Selecciona la operación que prefieras realizar: ");
@@ -35,10 +36,13 @@ public class IncredibleCalculator {
                     resultadoInt=num1*num2;
                     System.out.println("El resultado es "+resultadoInt);
                 break;
-            case 4: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su división
+            case 4: // Dividir enteros. Debes leer dos números enteros de entrada e imprimir su división
                     // entera.
+                    num1=leerEnteroEntrada();
+                    num2=leerEnteroEntrada();
+                   divisionEntera(num1, num2);
                 break;
-            case 5: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su división
+            case 5: // Dividir con decimales. Debes leer dos números enteros de entrada e imprimir su división
                     // con decimales.
                 break;
 

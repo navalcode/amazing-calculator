@@ -23,7 +23,11 @@ public class IncredibleCalculator {
             System.out.println("El resultado es "+resultadoInt);
                 break;
             case 2: // Restar. Debes leer dos números enteros de entrada e imprimir su resta
-                break;
+              num1=leerEnteroEntrada();
+              num2=leerEnteroEntrada();
+              resultadoInt=num1-num2;
+              System.out.println("El resultado es "+resultadoInt);
+            break;
             case 3: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su
                     // producto.
                 break;
